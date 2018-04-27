@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:bionic
 
 RUN apt-get update \
 && apt-get install -y curl apt-transport-https libc6-dev libgdiplus \
