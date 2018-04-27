@@ -7,7 +7,7 @@ RUN apt-get update \
 && echo "deb http://ppa.launchpad.net/quamotion/ppa/ubuntu bionic main" > /etc/apt/sources.list.d/quamotion.list \
 && apt-key adv --keyserver keyserver.ubuntu.com --recv E25E7A74 \
 && apt-get update \
-&& apt-get install -y libgdiplus
+&& apt-get install -y libgdiplus \
 
 # Install .NET Core from the Microsoft repositories
 && curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg \
