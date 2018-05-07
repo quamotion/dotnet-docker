@@ -7,7 +7,7 @@ RUN echo "deb http://ppa.launchpad.net/quamotion/ppa/ubuntu xenial main" > /etc/
 && curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg \
 && echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-xenial-prod xenial main" > /etc/apt/sources.list.d/dotnetdev.list \
 && apt-get update \
-&& apt-get install -y dotnet-runtime-2.1.0-preview2-26406-04 \
+&& apt-get install -y dotnet-runtime-2.1.0-rc1 \
 
 # See https://medium.com/@pavel.agarkov/debugging-asp-net-core-app-running-in-kubernetes-minikube-from-visual-studio-2017-on-windows-6671ddc23d93
 # for some additional instructions on how to connect to this container with Visual Studio
