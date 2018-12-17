@@ -1,6 +1,6 @@
 FROM ubuntu:xenial
 
-ARG dotnet_version=2.1.3-1
+ARG dotnet_version=2.1.4-1
 
 RUN apt-get update \
 && apt-get install -y curl apt-transport-https libc6-dev libgdiplus \
