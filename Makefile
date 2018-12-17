@@ -1,2 +1,2 @@
 docker:
-	sudo docker build -t dotnet-2.1.5 .
+	sudo docker build -t dotnet-2.1.6 .
