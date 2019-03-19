@@ -1,6 +1,6 @@
 FROM ubuntu:bionic
 
-ARG dotnet_version=2.2.2-1
+ARG dotnet_version=2.2.3-1
 
 RUN apt-get update \
 && apt-get install -y curl apt-transport-https libc6-dev gnupg \
